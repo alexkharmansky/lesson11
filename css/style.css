@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Akzidenz-Grotesk Pro Med';
+  src: url('../fonts/AkzidenzGroteskPro-Md.eot');
+  src: url('../fonts/AkzidenzGroteskPro-Md.eot?#iefix') format('embedded-opentype'), url('../fonts/AkzidenzGroteskPro-Md.woff2') format('woff2'), url('../fonts/AkzidenzGroteskPro-Md.woff') format('woff'), url('../fonts/AkzidenzGroteskPro-Md.ttf') format('truetype'), url('../fonts/AkzidenzGroteskPro-Md.svg#AkzidenzGroteskPro-Md') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  font-family: 'Akzidenz-Grotesk Pro Med', sans-serif;
+  background-color: #1a1a26;
+  text-transform: lowercase;
+}
+.container {
+  text-align: center;
+  margin-top: 3rem;
+  color: #fff;
+}
+.main {
+  text-align: center;
+  margin: 10rem;
+}
+.main span {
+  font-size: 2rem;
+}
+.main-block_phace {
+  text-align: center;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  width: 265px;
+  height: 265px;
+  background: url(../img/phace.jpg);
+  background-size: cover;
+}
+.main .wrap-1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  opacity: 0;
+}
+.main .wrap-1:hover {
+  background-color: rgba(26, 26, 38, 0.6);
+  opacity: 1;
+}
+.main-block_misanthrop {
+  text-align: center;
+  width: 265px;
+  height: 265px;
+  background: url(../img/misanthrop.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+.main-block_misanthrop:hover .wrap-2 {
+  transform: translateX(0%);
+  background-color: rgba(26, 26, 38, 0.6);
+}
+.main .wrap-2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: rgba(26, 26, 38, 0.6);
+  transform-origin: 0% 0%;
+  transform: translateX(100%);
+}
+.main-block_cv {
+  text-align: center;
+  width: 265px;
+  height: 265px;
+  background: url(../img/cv.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+.main-block_cv:hover .wrap-3 {
+  transform: translateY(0%);
+  background-color: rgba(26, 26, 38, 0.6);
+}
+.main .wrap-3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  transform: translateY(100%);
+}
+.main-block_emperor {
+  text-align: center;
+  width: 265px;
+  height: 265px;
+  background: url(../img/emperor.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+.main-block_emperor:hover .wrap-4 {
+  transform: translateX(0%) rotate(0);
+  background-color: rgba(26, 26, 38, 0.6);
+}
+.main .wrap-4 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  transform: translateX(100%) rotate(90deg);
+}
+a {
+  display: inline-block;
+  margin: 0;
+  font-size: 2rem;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+}
